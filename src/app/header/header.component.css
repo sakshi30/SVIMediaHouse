@@ -1,0 +1,39 @@
+.navbar{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a, h2{
+	color: white;
+    padding: 18px 18px;
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 8px;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+a:hover {background-color: #ff4000}
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ff4000;
+}

@@ -1,0 +1,32 @@
+<br/><br/>
+<h1><b>Our Team Members</b></h1>
+<br/><br/>
+<div *ngFor="let team of teams">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm col-md col-lg">
+				<img src="{{team.image}}" alt="{{team.name}}" class="img-thumbnail" class="col-sm col-md col-lg" align="left">
+			</div>
+			<div class="col-sm-9 col-md-9 col-lg-9">
+					<h2><b>{{team.name}}</b></h2>
+					<p><b>{{team.designation}}</b></p>
+					<p>{{team.description}}</p>
+				</div>
+			
+		</div>
+	</div>
+	<br/><br/>
+</div>
+<h1><b>Other Team Members</b></h1>
+<div class="other_member">
+	<ol>
+		<li><b>Mrs. Kirti Srivastava</b> (Creativity)</li>
+		<li><b>Mr. Dinesh Srivastava</b> (Director & CEO)</li>
+		<li><b>Mr. K.K. Varma</b> (Conceptions/Brand Management/Events)</li>
+		<li><b>Mr. Ashish Tiwari</b> (Writer)</li>
+		<li><b>Mr. Sunil Unni</b> (Strategic Planing,Overseas Marketing)</li>
+		<li><b>Vineet Ketkar & Associates</b> (Accounting & Finance)</li>
+	</ol>
+	<b>and many more...</b>
+</div>
+<br/><br/><br/><br/><br/><br/><br/>

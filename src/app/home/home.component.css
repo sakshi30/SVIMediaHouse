@@ -1,0 +1,28 @@
+h2{
+   text-align: left;
+   margin-left: 50px;
+   color: white;
+}
+.a{
+   text-align: left;
+   margin-left: 50px;
+   color: white;
+}
+
+.reel{
+   background-color: #ff4000;
+   color: white;
+}
+
+h1{
+   color: #ff4000;
+   text-align: center;
+}
+.feature_image{
+   width: 80px;
+   height: 80px;
+   margin: 40px;
+}
+h3{
+   color: #ff4000;
+}

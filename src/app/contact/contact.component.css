@@ -1,0 +1,20 @@
+p{
+	text-align: center;
+	color: #ff4000;
+}
+h2{
+	text-align: center;
+	color: #ff4000;
+}
+h3{
+	color: #ff4000;
+}
+.contact{
+	position: relative;
+	left: 180px;
+}
+img{
+	position: relative;
+	top: 100px;
+	left: 400px;
+}
